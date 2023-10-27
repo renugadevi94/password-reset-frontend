@@ -12,7 +12,7 @@ const {handleReset,
 
     let { id } = useParams();
   useEffect(() => {
-    console.log("Reset Token ID in useEffect:", id);
+    //console.log("Reset Token ID in useEffect:", id);
     setResetToken(id);
   },[id, setResetToken]);
   return (
