@@ -20,6 +20,8 @@ export const DataProvider = ({ children }) => {
     
   };
 
+  //signup
+  
   const handleSignUp = async (e) => {
     e.preventDefault();
     const userData = {
